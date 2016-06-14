@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>newsbeuter - Exported Feeds</title>
+  </head>
+  <body>
+    <outline type="rss" xmlUrl="https://www.us-cert.gov/ncas/current-activity.xml" htmlUrl="https://www.us-cert.gov/ncas/current-activity.xml" title="US-CERT Current Activity"/>
+    <outline type="rss" xmlUrl="http://krebsonsecurity.com/feed/" htmlUrl="http://krebsonsecurity.com" title="Krebs on Security"/>
+    <outline type="rss" xmlUrl="https://www.schneier.com/blog/atom.xml" htmlUrl="https://www.schneier.com/blog/" title="Schneier on Security"/>
+    <outline type="rss" xmlUrl="http://www.darkreading.com/rss_simple.asp" htmlUrl="http://www.darkreading.com" title="Dark Reading: "/>
+    <outline type="rss" xmlUrl="http://www.cio.com/index.rss" htmlUrl="http://www.cio.com" title="CIO"/>
+    <outline type="rss" xmlUrl="http://feeds.pcmag.com/Rss.aspx/SectionArticles?sectionId=25442" htmlUrl="http://www.pcmag.com" title="PCMag.com Latest Articles"/>
+    <outline type="rss" xmlUrl="https://www.wired.com/category/security/feed/" htmlUrl="https://www.wired.com" title="WIRED"/>
+    <outline type="rss" xmlUrl="http://www.forbes.com/sites/firewall/feed/" htmlUrl="http://www.forbes.com/sites/firewall/" title="The Firewall - the world of security - Forbes"/>
+    <outline type="rss" xmlUrl="http://www.techrepublic.com/rssfeeds/topic/security/" htmlUrl="http://www.techrepublic.com/rssfeeds/topic/security/" title="Security on TechRepublic"/>
+    <outline type="rss" xmlUrl="http://www.zdnet.com/blog/rss.xml" htmlUrl="http://www.zdnet.com/" title="Latest blogs for ZDNet"/>
+    <outline type="rss" xmlUrl="http://news.hitb.org/rss.xml" htmlUrl="http://news.hitb.org/" title="HITBSecNews - Keeping Knowledge Free for Over a Decade"/>
+    <outline type="rss" xmlUrl="https://threatpost.com/feed/" htmlUrl="https://threatpost.com" title="Threatpost | The first stop for security news"/>
+    <outline type="rss" xmlUrl="http://www.itsecurityguru.org/feed/" htmlUrl="http://www.itsecurityguru.org" title="IT SECURITY GURU"/>
+    <outline type="rss" xmlUrl="http://itsecurity.co.uk/feed/" htmlUrl="http://itsecurity.co.uk" title="ITsecurity"/>
+    <outline type="rss" xmlUrl="https://dankaminsky.com/feed/" htmlUrl="https://dankaminsky.com" title="Dan Kaminsky's Blog"/>
+    <outline type="rss" xmlUrl="http://emergentchaos.com/feed" htmlUrl="http://emergentchaos.com" title="Emergent Chaos"/>
+    <outline type="rss" xmlUrl="http://www.flyingpenguin.com/?feed=rss2" htmlUrl="http://www.flyingpenguin.com" title="flyingpenguin"/>
+    <outline type="rss" xmlUrl="http://feeds.feedburner.com/inftoint" htmlUrl="https://www.elie.net/blog/" title="Elie on Internet Security and Performance"/>
+    <outline type="rss" xmlUrl="https://www.grahamcluley.com/feed/" htmlUrl="https://www.grahamcluley.com" title="Graham Cluley"/>
+    <outline type="rss" xmlUrl="https://blog.elearnsecurity.com/feed" htmlUrl="https://blog.elearnsecurity.com" title="eLearnSecurity Blog"/>
+    <outline type="rss" xmlUrl="http://www.hackingarticles.in/feed/" htmlUrl="http://www.hackingarticles.in" title="Hacking Articles"/>
+    <outline type="rss" xmlUrl="http://holisticinfosec.blogspot.com/feeds/posts/default" htmlUrl="http://holisticinfosec.blogspot.com/" title="HolisticInfoSec"/>
+    <outline type="rss" xmlUrl="http://jeffsoh.blogspot.com/feeds/posts/default" htmlUrl="http://jeffsoh.blogspot.com/" title="JeffSoh on NetSec"/>
+    <outline type="rss" xmlUrl="http://feeds.feedburner.com/MattFlynnsIdentityManagementBlog" htmlUrl="http://360tek.blogspot.com/" title="Matt Flynn's Security and Identity Blog"/>
+    <outline type="rss" xmlUrl="http://feeds.feedburner.com/blogspot/CqwP?format=xml" htmlUrl="http://marcoramilli.blogspot.com/" title="Marco Ramilli's Blog"/>
+    <outline type="rss" xmlUrl="https://nakedsecurity.sophos.com/feed/" htmlUrl="https://nakedsecurity.sophos.com" title="Naked Security"/>
+    <outline type="rss" xmlUrl="http://infosecisland.com/rss.html" htmlUrl="https://infosecisland.infosecisland.com" title="Infosec Island Latest Articles"/>
+    <outline type="rss" xmlUrl="http://robert.penz.name/feed/" htmlUrl="http://robert.penz.name" title="Robert Penz Blog"/>
+    <outline type="rss" xmlUrl="https://blog.trailofbits.com/feed/" htmlUrl="https://blog.trailofbits.com" title="Trail of Bits Blog"/>
+    <outline type="rss" xmlUrl="http://blog.uncommonsensesecurity.com/feeds/posts/default" htmlUrl="http://blog.uncommonsensesecurity.com/" title="Uncommon Sense Security"/>
+    <outline type="rss" xmlUrl="https://www.veracode.com/blog/feed" htmlUrl="https://www.veracode.com/blog" title=""/>
+    <outline type="rss" xmlUrl="https://labsblog.f-secure.com/feed/" htmlUrl="https://labsblog.f-secure.com" title="News from the Lab"/>
+    <outline type="rss" xmlUrl="http://feeds.danielmiessler.com/danielmiessler" htmlUrl="https://danielmiessler.com/" title="Daniel Miessler : infosec | technology | humans"/>
+    <outline type="rss" xmlUrl="https://feeds.feedblitz.com/thesecurityledger" htmlUrl="https://securityledger.com" title="The Security Ledger"/>
+    <outline type="rss" xmlUrl="https://zeltser.com/feed/" htmlUrl="https://zeltser.com" title="Lenny Zeltser"/>
+  </body>
+</opml>
