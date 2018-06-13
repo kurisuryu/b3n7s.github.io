@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: b3n's security blog
-email: b3n7s@outlook.be
+title: Benoit SEvens
+email: benoit.sevens@gmx.com
 description: > # this means to ignore newlines until "baseurl:"
-  Rise and rise again, until lions become lambs.  
+  A blog dedicated to security stuff.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://b3n7s.github.io" # the base hostname & protocol for your site
 twitter_username: b3n01t
