@@ -1,10 +1,3 @@
----
-layout: post
-title:  "acccheck command injection"
-date:   2018-06-13 10:06:05 +0200
-categories: 
----
-
 # Never trust the password lists
 
 ## Summary
