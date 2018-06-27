@@ -24,7 +24,8 @@ github_username:  b3n7s
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
