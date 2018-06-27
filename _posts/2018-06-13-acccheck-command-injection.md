@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Never trust the password lists"
+date:   2018-06-13 00:00:00 +0100
+categories: 
+---
+
 # Never trust the password lists
 
 ## Summary
