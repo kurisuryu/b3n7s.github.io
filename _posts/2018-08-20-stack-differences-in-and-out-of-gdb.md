@@ -348,8 +348,15 @@ Address of stack variable: 0xffffddfc
 
 Yay, it works!
 
+Another, maybe simpler way, is the call the binary outside of GDB with:
+
+```
+bash$ env _=/usr/bin/gdb /absolute/path/to/binary
+```
+
 BTW, the man page of bash explains it to us:
 
 ```
 When bash invokes an external command, the variable _ is set to the full filename of the command and passed to that command in its environment.
 ```
+
