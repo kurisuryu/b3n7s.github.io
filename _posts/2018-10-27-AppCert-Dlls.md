@@ -9,40 +9,32 @@ This persistence method is mentioned in the [ATT&CK framework](https://attack.mi
 
 So I tried it and indeed it works. These are the steps I have followed:
 
-1. Create a 64-bit DLL which does this in the DllMain function:
+First, create a 64-bit DLL which does this in the DllMain function:
 
-     ```
-     BOOL APIENTRY DllMain( HMODULE hModule,
+```
+BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
                      )
-     {
-        switch (ul_reason_for_call)
-        {
+{
+    switch (ul_reason_for_call)
+    {
         case DLL_PROCESS_ATTACH:
 	     MessageBox(NULL, L"Hello world from DLL!", L"Hello world", 0x0);
         case DLL_THREAD_ATTACH:
         case DLL_THREAD_DETACH:
         case DLL_PROCESS_DETACH:
             break;
-      }
-       return TRUE;
     }
-    ```
+    return TRUE;
+}
+```
 
-  Of course, as an attacker, you would place your code here. 
+Of course, as an attacker, you would place your malicious code inhere. Make sure to compile it as x64 target.
 
-2. Make sure to compile it to 64-bit.
+Next, create a registry key `HKLM\System\CurrentControlSet\Control\Session Manager\AppCertDlls` Add in that registry key a value name `yadayada` with string data `PATH_TO_DLL`.
 
-3. Create a registry key:
+Strangely, it does not work at every `CreateProcess`. I still have to figure out why. But the DLL can be triggered by e.g.:
 
- ```
- HKLM\System\CurrentControlSet\Control\Session Manager\AppCertDlls
- ```
-
-3. Add in that registry key a value name `yadayada` with string data `PATH_TO_DLL`.
-
-4. It does not work at every `CreateProcess` strangely. I still have to figure out why. But the DLL can be triggered by e.g.:
-
-  * Launch cmd.exe
-  * From cmd.exe, launch notepad.exe
+* Launch cmd.exe
+* From cmd.exe, launch notepad.exe
