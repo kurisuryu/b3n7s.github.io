@@ -40,8 +40,9 @@ I have compiled it to 64-bit.
 HKLM\System\CurrentControlSet\Control\Session Manager\AppCertDlls
 ```
 
-3, Add in that registry key a value name `yadayada` with string data `PATH_TO_DLL`.
+3. Add in that registry key a value name `yadayada` with string data `PATH_TO_DLL`.
 
 4. It does not work at every `CreateProcess` strangely. I still have to figure out why. But the DLL can be triggered by e.g.:
+
   * Launch cmd.exe
   * From cmd.exe, launch notepad.exe
