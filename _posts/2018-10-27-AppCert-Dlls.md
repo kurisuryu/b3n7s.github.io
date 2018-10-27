@@ -30,11 +30,11 @@ MessageBox(NULL, L"Hello world from DLL!", L"Hello world", 0x0);
 }
 ```
 
-Of course, as an attacker, you would place your code here.
+Of course, as an attacker, you would place your code here. 
 
-I have compiled it to 64-bit.
+2. I have compiled it to 64-bit.
 
-2. Create a registry key:
+3. Create a registry key:
 
 ```
 HKLM\System\CurrentControlSet\Control\Session Manager\AppCertDlls
