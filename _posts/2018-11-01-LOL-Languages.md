@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PsExec on Windows 10"
+title:  "LOL languages"
 date:   2018-11-01 00:00:00 +0000
 categories: 
 ---
