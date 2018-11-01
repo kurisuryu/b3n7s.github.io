@@ -26,6 +26,7 @@ I think it is also impressive how many languages are installed by default on a m
 | Awk | | x | x |
 | Tcl/Tk | | x | |
 | Applescript | | x| |
-| Javacript/JScript | x| x | |
 | Batch | x | | |
+| PowerShell | x | | |
+| Javacript/JScript | x| x | |
 | VBScript | x | | |
