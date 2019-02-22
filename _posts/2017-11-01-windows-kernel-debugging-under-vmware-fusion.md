@@ -27,7 +27,7 @@ I will explain here how to set up your lab for debugging the Windows kernel on V
 	serial0.fileType = "pipe"
 	serial0.fileName = "/tmp/serial"
 	serial0.tryNoRxLoss = "FALSE"
-	serial0.pipe.endPoint = "serial"
+	serial0.pipe.endPoint = "server"
 	```
 
 4. Boot the debuggee machine. Launch an administrative command prompt. Type following commands:
